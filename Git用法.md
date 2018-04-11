@@ -48,6 +48,8 @@ $ git rm <name.后缀>
 --- 推送到远程库
 $ git push -u `库名`
 $ git push `库名`
+$ git push -all `库名`   #强行推送
+$ git push origin --delete <branchName>  #删除远程分支
 ---克隆一个本地库
 $ git clone `地址`
 ---关联远程库
@@ -58,6 +60,7 @@ $ git checkout <name>     `切换分支`
 $ git checkout -b <name>    `--<name> 是分支名`
 ---查询分支
 $ git branch 
+$ git branch -a  #查询远程分支
 ---合并分支（合并某分支到当前分支）
 $ git merge <name>
 ---删除分支
