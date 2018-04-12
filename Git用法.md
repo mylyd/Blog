@@ -129,7 +129,8 @@ $ git stash pop       #恢复储存的工作--`stash内容删除`
 ##### 			抓取最新提交的分支
 ```shell
 $ git pull 
-$ git pull --set-upstream <name> origin/<name>  		#设置本地分支与远程分支的链接
+$ git pull --set-upstream <name> origin/<name>  	#设置本地分支与远程分支的链接
+$ git pull origin <origin/dev>:<dev>        #现将远程的分支更新到本地
 ```
 ##### 			创建标签用于查找分支(切换到需要打标签的分支)
 ```shell
