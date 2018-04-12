@@ -1,6 +1,8 @@
-## Fragment动态加载案例
+### 笔记主目录
 
-### < 缓存式>（Fragment 切换时不会Finish掉前一个或者是使用过的Fragment）
+#### Fragment动态加载案例
+
+##### < 缓存式>（Fragment 切换时不会Finish掉前一个或者是使用过的Fragment）
 
 ​	Java部分的代码(MainActivity.java)
 
