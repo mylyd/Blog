@@ -102,6 +102,7 @@ $ git checkout -b <name1> origin/<name2>
 $ git branch <name>      #创建分支
 $ git branch 			#查看当前位于哪一个分支
 $ git branch -a  		#查询远程分支
+$ git branch -r         #查询远程分支
 $ git branch -d <name>	#删除分支
 $ git branch -D <name> 	#强行删除分支
 $ git merge <name>		#合并分支（合并某分支到当前分支）
