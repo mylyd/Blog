@@ -10,5 +10,6 @@
 8. [Dialog自定义提示框](./Dialog自定义提示框.md)
 9. [Git用法](./Git用法.md)
 10. [myhome](./myhome.md)
+11. [OrmLite使用笔记](./OrmLite使用笔记.md)
 
 
