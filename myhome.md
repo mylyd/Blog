@@ -1,4 +1,4 @@
-### Android随笔笔记---目录 
+# 主页
 
 1. [Android异步消息处理机制](./Android异步消息处理机制.md)
 2. [Timer定时器](./Timer定时器.md)
@@ -9,6 +9,7 @@
 7. [样式shape](./样式shape.md)
 8. [Dialog自定义提示框](./Dialog自定义提示框.md)
 9. [Git用法](./Git用法.md)
-10. [Git教程[从0开始学]](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000)
-
+10. [Git踩坑笔记](./一个Git配置遇到坑的记录笔记.md) 
+11. [myhome](./myhome.md)
+12. [OrmLite使用笔记](./OrmLite使用笔记.md)
 
