@@ -29,7 +29,7 @@
   >
   > 2、打开https://github.com/，登陆你的账户，进入设置
   >
-  > ![img1](<https://raw.githubusercontent.com/mylyd/mylyd.github.io/master/img/img1.png>)
+  > ![img1](https://raw.githubusercontent.com/mylyd/mylyd.github.io/master/img/img1.png)
   >
   > 点击add ssh key，ok！
 
@@ -37,7 +37,7 @@
 
 - ### 下面具体看最最最最坑人的地方
 
-> ![](C:\Users\mayn\Desktop\indexzhuxi\mylyd.github.io\img\img2.png)
+> ![img2](https://github.com/mylyd/mylyd.github.io/blob/master/img/img2.png?raw=true)
 >
 > 看到没有，即使你整了ssh还是会出现这种问题，不要慌，这种情况1是可能你网炸了，2呢就是掉坑里了
 >
@@ -65,7 +65,7 @@
 > $ git config --local -e      //编辑本地git配置
 > ```
 >
-> ![](C:\Users\mayn\Desktop\indexzhuxi\mylyd.github.io\img\img3.png)
+> ![img3](https://github.com/mylyd/mylyd.github.io/blob/master/img/img3.png?raw=true)
 >
 > 这里修改这个是因为有些电脑使用ssh时会出现问题，改成https就不会了，没找到ssh的解决办法目前只能改成能用https的办法了，经过百度，嘿嘿~~（注意一下，这里进去是不能直接插入的，需要按一下insert按键）
 >
@@ -91,7 +91,7 @@ fatal: Authentication failed for 'https://git@github.com/eurydyce/MDANSE.git/'
 
 这nm又是什么坑啊，日哦。。。。
 
-![](C:\Users\mayn\Desktop\indexzhuxi\mylyd.github.io\img\img5.png)
+![](https://github.com/mylyd/mylyd.github.io/blob/master/img/img5.png?raw=true)
 
 然后，继续百度吧，看了国外的一个论坛，找到了原因，说是什么启动了2FA，需要输入个人令牌，所以那个密码输入的是你的令牌（这里还有个坑，后面说，呜呜呜呜~~）
 
@@ -99,10 +99,14 @@ fatal: Authentication failed for 'https://git@github.com/eurydyce/MDANSE.git/'
 
 这时候会出现一个权限勾选表，上面的一个title 随便写写，下面权限根据需求勾选，然后生成的那个老长老长的一定要复制好，然后找个小记事本记下来，因为搞到这里我发现每次 push的时候都尼玛需要输入这个，晕了~
 
-![](C:\Users\mayn\Desktop\indexzhuxi\mylyd.github.io\img\img6.png)
+![](https://github.com/mylyd/mylyd.github.io/blob/master/img/img6.png?raw=true)
 
 到这里就结束了，ok能push了。
 
-![](C:\Users\mayn\Desktop\indexzhuxi\mylyd.github.io\img\img4.png)
+![](https://github.com/mylyd/mylyd.github.io/blob/master/img/img4.png?raw=true)
 
 不容易啊，写个东西记录一下，避免下次入坑
+
+如果你是在远程clone下来的，如果出现
+![](https://github.com/mylyd/mylyd.github.io/blob/master/img/img7.png?raw=true)
+这是当前仓库加载另一个远程仓库，直接将多余的一个.git文件夹删除掉，再重新git add . 就行了。
