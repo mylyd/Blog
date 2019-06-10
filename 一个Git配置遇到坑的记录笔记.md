@@ -29,7 +29,7 @@
   >
   > 2、打开https://github.com/，登陆你的账户，进入设置
   >
-  > ![](C:\Users\mayn\Desktop\indexzhuxi\mylyd.github.io\img\img1.png)
+  > ![img1](<https://raw.githubusercontent.com/mylyd/mylyd.github.io/master/img/img1.png>)
   >
   > 点击add ssh key，ok！
 
